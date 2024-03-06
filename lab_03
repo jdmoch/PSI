@@ -9,3 +9,70 @@ relacja
 przypadki uzcyia
 
 aktor - zbior rol osobowych lub nieosobowych.
+
+ZAD1
+Przykład 1 Obsługa Asysty Technicznej
+Wojewódzka Biblioteka Publiczna posiada sieć rozproszonych punktów bibliotecznych po
+całym terenie. Każdy punkt wyposażony jest w sprzęt komputerowy wymagający wsparcia
+technicznego. W centrali istnieje Dział Informatyki zajmujący się m.in. realizacją napraw
+awarii sprzętu komputerowego. Realizacja napraw odbywa się w następujący sposób:
+pracownik biblioteki zgłasza problem ze sprzętem lub oprogramowaniem na formularzu
+zgłoszeniowym.
+Szef działu informatyków dokonuje weryfikacji zgłoszenia i przydziela je odpowiedniemu
+specjaliście w terenie. Dla danego specjalisty wyświetlane są w postaci listy przydzielone
+zgłoszenia.
+Po wykonaniu naprawy i jej sprawdzeniu dokonywana jest zmiana stanu zgłoszenia na
+zamknięte przez osobę uprawnioną.
+W każdej chwili pracownik może sprawdzić aktualny stan swojego zgłoszenia.
+Polecenia do wykonania analizy wymagań:
+1. Dokonaj analizy specyfikacji dostarczonego dokumentu i odpowiedz na pytania: Kto
+pracuje w Dziale Informatyki? Jakie funkcję są wykonywane w Dziale
+Informatyki? Jacy pracownicy wykonują te funkcje?
+2. Zdefiniuj zadania szczegółowe wykonywane w tej organizacji
+3. Zdefiniuj aktorów
+4. Zdefiniuj przypadki użycia
+5. Ustal słownik danych
+6. Utwórz model SI w postaci Diagram Przypadków Użycia – zdefiniuj przypadki użycia
+i dokonaj ich opisu
+
+
+1.Analiza specyfikacji:
+
+-Kto pracuje w Dziale Informatyki? W Dziale Informatyki pracują specjaliści, którzy zajmują się m.in. realizacją napraw awarii sprzętu komputerowego.
+-Jakie funkcje są wykonywane w Dziale Informatyki? Funkcje wykonywane w Dziale Informatyki to weryfikacja zgłoszeń, przydział zgłoszeń do odpowiednich specjalistów, sprawdzanie i dokonywanie zmiany stanu zgłoszenia na zamknięte po naprawie.
+-Jacy pracownicy wykonują te funkcje? Pracownicy Działu Informatyki wykonują te funkcje, w tym szef działu oraz specjaliści techniczni.
+
+2.Zadania szczegółowe wykonywane w tej organizacji:
+Weryfikacja zgłoszeń.
+Przydział zgłoszeń do odpowiednich specjalistów.
+Wykonywanie napraw.
+Sprawdzanie wykonanych napraw.
+Zmiana stanu zgłoszenia na zamknięte po naprawie.
+
+3.Aktorzy:
+-Pracownik biblioteki
+Szef działu informatyków
+Specjaliści techniczni
+
+4.Przypadki użycia:
+Zgłoszenie problemu przez pracownika biblioteki.
+Weryfikacja zgłoszenia przez szefa działu informatyków.
+Przydział zgłoszenia do odpowiedniego specjalisty.
+Wykonanie naprawy przez specjalistę.
+Sprawdzenie wykonanej naprawy.
+Zmiana stanu zgłoszenia na zamknięte.
+
+5.Słownik danych:
+Formularz zgłoszeniowy
+Lista zgłoszeń
+Stan zgłoszenia (np. otwarte, zamknięte)
+Sprzęt komputerowy
+Oprogramowanie
+
+6.Model SI w postaci Diagramu Przypadków Użycia:
+Zgłoszenie problemu przez pracownika biblioteki: Pracownik biblioteki zgłasza problem ze sprzętem lub oprogramowaniem na formularzu zgłoszeniowym.
+Weryfikacja zgłoszenia przez szefa działu informatyków: Szef działu informatyków dokonuje weryfikacji zgłoszenia.
+Przydział zgłoszenia do odpowiedniego specjalisty: Szef działu informatyków przydziela zgłoszenie do odpowiedniego specjalisty w terenie.
+Wykonanie naprawy przez specjalistę: Specjalista w terenie wykonuje naprawę.
+Sprawdzenie wykonanej naprawy: Osoba uprawniona sprawdza wykonaną naprawę.
+Zmiana stanu zgłoszenia na zamknięte: Po sprawdzeniu, osoba uprawniona zmienia stan zgłoszenia na zamknięte
