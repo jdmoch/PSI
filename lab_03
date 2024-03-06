@@ -1,4 +1,6 @@
-DPU - diagram przypadków użycia
+DPU -  diagram przypadkow uzycia graficzne przedstawienie przypadków użycia, aktorów oraz związków między nimi, występujących w danej dziedzinie przedmiotowej. 
+Diagram przypadków użycia w języku UML służy do modelowania funkcjonalności systemu. Tworzony jest zazwyczaj w początkowych fazach modelowania.
+
 USECASE - przypadek użycia
 
 co towrzy dpu
