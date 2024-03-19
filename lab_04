@@ -1,2 +1,8 @@
 definicja usecase - 
 enterprise architect
+use case (przypadki uzycia) --> od 5 do 14 krokow [DPU]
+dwie relacje miedza soba - przerywana kreska
+1. Jacy są aktorzy
+2. Tworzenie przypadków użycia (czasownik w trybie rozkazujacym + rzeczownik)
+aktorzy-relacje extends
+relacje-relacje include
