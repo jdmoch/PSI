@@ -1,1 +1,7 @@
-la
+generalization bialy grot strzalki
+aby napisy na liniach klikamy dwa razy i nadajemy nazwe w okienku a potem source/target role
+wiele do wielu dajemy * w polu multiplicity
+
+diagram obiektow:
+logical view folder, prawy, add, add diagram, object opcja
+set run state - do dodawania tych tych 
